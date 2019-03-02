@@ -1,0 +1,59 @@
+/*set default margin and padding*/
+
+.image-area{
+	background-image:linear-gradient(to right, rgba(200, 0, 38, 1), rgba(200, 200, 200, 0)), url(dog.jpg);;
+	background-color: black;
+	background-position: center center;
+	background-size: cover;
+	padding-top: 212px;
+	padding-bottom: 255px;
+	height: 150px;
+	z-index: -1;
+}
+
+.image-text{
+	position: absolute;
+  	bottom: 200px;
+  	left: 80px;
+  	font-family: 'Shadows Into Light', cursive;
+  	font-size: 2.5rem;
+  	color: white;
+  	text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.9);
+}
+
+.services{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.cards{
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
+	margin-top: auto;
+	width: 300px;
+	height: 650px;
+	padding: 15px;
+	border-style: 1px solid;
+	justify-content: space-around;
+	box-shadow: 10px 10px 10px 10px #888888;
+
+}
+
+
+.images{
+	/*border: 4px dashed;*/
+	border-image: 30px round;
+	padding: 0px;
+	margin: 0px;
+}
+
+.logo{
+	background-image:url(d1.jpg);
+	width: 100px;
+	height: 100px;
+	position: absolute;
+}
+
